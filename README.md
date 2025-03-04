@@ -1,0 +1,2 @@
+# data_modeling_viktor_deilert_de24
+Learning data modelning
