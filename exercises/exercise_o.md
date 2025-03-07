@@ -116,6 +116,14 @@ a) Entities:
 - adress
 - email
 
+**Borrowing**
+- borrowing_id
+- ISBN
+- membership_id
+- return_date
+- borrow_date
+
+
 b)
 - A Member can have zero or several Borrowings 
 - A Borrowing can be made by one and only one Member
