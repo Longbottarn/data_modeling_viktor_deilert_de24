@@ -142,3 +142,61 @@ Replaced many-to-many with a bridge table (composite enitity)
 
 <img src = "../assets\Bookly_ex0_2_2.png" width=500>
 
+## 3. Conceptual ERD to words
+
+<img src="https://github.com/kokchun/assets/raw/main/data_modeling/car_rental.png?raw=true" alt="course structure" width="500" style="max-width: 100%;">
+
+This is an ERD conceptual diagram that a database designer and the business stakeholders agreed upon in a car rental company called Carent.
+
+course structure
+
+a) Describe the entities in this conceptual ERD.
+
+b) Write out the relationship labels.
+
+c) Describe the relationships between the entities (one-to-many, one-to-one and many-to-many).
+
+d) Define the relationship statement for example: "A Customer can have one or more Rentals".
+
+### Solutions
+
+a) 
+
+- Customer is a person that can make a rental for cars.
+
+- Car is the cars that can be rented by a person.
+
+- Rental (Composite entity) is the transaction between customers and cars.
+
+b) 
+
+c) 
+
+- Customer to Rental (one-to-many)
+- Rental to Customer (many-to-one)
+- Rental to Car (many-to-one)
+- Car to Rental (one-to-many)
+
+d)
+
+- Customer makes one or more Rentals over time
+- Each Rental is connected to one Customer
+- Each Rental is for one Car
+- Each Car can be in several Rentals
+
+
+## 5. University management system
+
+A university needs a system to manage students, courses, and professors.
+
+each student can enroll in multiple courses.
+each course is taught by one professor.
+a teacher can teach multiple courses.
+a) Identify entities and their relationships
+
+b) Come up with possible attributes for the entities
+
+c) Draw conceptual ERD with cardinalities
+
+d) Define business rules (e.g. a student can enroll in max 4 courses)
+
